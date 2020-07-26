@@ -1,0 +1,20 @@
+# Assigning elements to list of subjects
+  subjects = ["English","Physics","Chemistry","Mathematics","Economics"]
+  print(subjects)
+# Accessing elements from a tuple containing fruits 
+  fruits = ("Apple","Mango","Plum","Cherry","Pineapple")
+  print(fruits)
+  print(fruits[4])
+  print(fruits[2])
+# Deleting elements from Dictionary
+  dict = {
+    "Name":"John",
+    "Age":18,
+    "Gender":"Male",
+    "Contact Number":9876543210,
+    "E-mail":"john@gmail.com"
+}
+  print(dict)
+  print(dict["Age"])
+  del dict["Contact Number"]
+  print(dict)
